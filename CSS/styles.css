@@ -92,7 +92,7 @@ body {
     font-weight: bold;
 }
 
-.front .content .mas:hover {
+.front .call .mas:hover {
     color: blue;
     border-bottom: 2px solid blue;
 }
@@ -156,7 +156,7 @@ body {
     width: 950px;
 }
 
-.content span, .content i {
+.map span, .map i {
     color: black;
 }
 
@@ -204,6 +204,21 @@ body {
     width: 400px;
 }
 
+.conocer {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.conocer span {
+    transition: .3s;
+    margin-left: 5px;
+}
+
+.conocer:hover span {
+    margin-left: 15px;
+}
+
 .viajes-compartidos h2 {
     font-size: 40px;
 }
@@ -211,12 +226,6 @@ body {
 .viajes-compartidos p {
     font-size: 18px;
     
-}
-
-.viajes-compartidos a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
 }
 
 .tranquilidad {
@@ -248,8 +257,20 @@ body {
     position: absolute;
     top: 0;
     width: 450px;
+    margin-left: 120px;
 }
 
 .cel h2 {
-    font-size: 50px;
+    font-size: 45px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.content .about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .about div {
+    width: 450px;
 }
