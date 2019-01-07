@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    padding: 0 40px;
+}
+
+.header {
+    background: black;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    /* margin-right: 50px; */
+}
+
+.logo {
+    margin: 0;
+    margin-right: 50px;
+}
+
+.logo a {
+    margin: 0;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.registro a {
+    margin-left: 60px;
+}
+
+.front {
+    display: flex;
+    height: 515px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.front h2 {
+    font-size: 70px;
+}
+
+.front .call {
+    display: flex;
+}
+
+.front h3 {
+    font-size: 30px;
+}
+
+.front .call p {
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.front .call .mas {
+    color: #232323;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.front .content .mas:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.front .btn {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 30px;
+    width: 220px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.front .btn i {
+    margin-left: 10px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.front .btn:hover i {
+    transform: translateX(10px);
+}
+
+.front .conduce .btn {
+    background: blue;
+}
+
+.front .conduce .btn:hover {
+    background: black;
+}
+
+.front .viaja .btn {
+    border: 1px solid blue;
+    color: blue;
+}
+
+.front .viaja .btn:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+.content section {
+    margin-top: 80px;
+}
+
+.content .map {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .call {
+    position: absolute;
+    background: white;
+    bottom: 115px;
+    display: flex;
+    align-items: center;
+    width: 950px;
+}
+
+.content span, .content i {
+    color: black;
+}
+
+.content .first {
+    font-size: 60px;
+    margin: 55px 0;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.content .second {
+    font-size: 20px;
+}
+
+.content i {
+    margin-left: 220px;
+    font-size: 40px;
+}
+
+.content .map:hover span {
+    color: blue;
+}
+
+.content .map:hover i {
+    color: blue;
+    animation-name: flecha;
+    animation-duration: 1s;
+}
+
+@keyframes flecha {
+    0% {
+        margin-left: 100px;
+    }
+    100% {
+        margin-left: 220px;
+    }
+}
+
+.viajes-compartidos .sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.viajes-compartidos .sections > div {
+    width: 400px;
+}
+
+.viajes-compartidos h2 {
+    font-size: 40px;
+}
+
+.viajes-compartidos p {
+    font-size: 18px;
+    
+}
+
+.viajes-compartidos a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tranquilidad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tranquilidad .left {
+    width: 350px;
+}
+
+.tranquilidad h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.tranquilidad a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cel {
+    position: relative;
+}
+
+.cel > div {
+    position: absolute;
+    top: 0;
+    width: 450px;
+}
+
+.cel h2 {
+    font-size: 50px;
+}
