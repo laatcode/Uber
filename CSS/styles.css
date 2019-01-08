@@ -171,7 +171,7 @@ body {
     font-size: 20px;
 }
 
-.content i {
+.content .map i {
     margin-left: 220px;
     font-size: 40px;
 }
@@ -272,5 +272,31 @@ body {
 }
 
 .content .about div {
-    width: 450px;
+    width: 370px;
+}
+
+.content .about img {
+    height: 40px;
+}
+
+.content .about h2 {
+    font-size: 30px;
+}
+
+.content .registrarse {
+    display: flex;
+}
+
+.content .registrarse div {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.content .registrarse h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.content .registrarse i {
+    font-size: 40px;
 }
