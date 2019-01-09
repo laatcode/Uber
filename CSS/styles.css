@@ -285,18 +285,24 @@ body {
 
 .content .registrarse {
     display: flex;
+    justify-content: space-between;
 }
 
 .content .registrarse div {
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
     border-bottom: 1px solid black;
+    width: 550px;
 }
 
 .content .registrarse h2 {
-    font-size: 50px;
+    font-size: 30px;
     margin: 0;
+    width: 320px;
 }
 
 .content .registrarse i {
     font-size: 40px;
+    /* margin-left: 200px; */
 }
